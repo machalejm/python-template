@@ -1,0 +1,2 @@
+name=python-template
+version=0.1.0
