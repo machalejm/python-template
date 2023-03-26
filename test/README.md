@@ -1,1 +1,1 @@
-The test suite for the library should be here.
+The test suite for the library should be in this directory.

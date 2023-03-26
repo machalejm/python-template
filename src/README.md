@@ -1,1 +1,1 @@
-The source code for the library should be here.
+The source code for the library should be in this directory and its subdirectories.
