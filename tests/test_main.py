@@ -12,8 +12,8 @@ class MainTests(unittest.TestCase):
     def test_version(self):
         expected_result = \
         {
-            "name": "acadia-quant-summit", 
-            "version": "2023.11.0"
+            "name": "python-template", 
+            "version": "0.3.0"
         }
         self.assertEqual(main.read_version(), expected_result)
     
