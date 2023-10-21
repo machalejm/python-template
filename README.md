@@ -1,5 +1,6 @@
 # python-template
-A template Python repository by James Mac Hale.
+
+A template for a simple python project by James Mac Hale.
 
 # Quick Start Guide
 
@@ -7,10 +8,21 @@ A template Python repository by James Mac Hale.
 
 ```src``` must contain any source code. The entry point for the code is main.py.
 
-```test``` must contain any tests code.
+```tests``` must contain any tests code.
+
+## Windows Instructions
 
 Run the ```setup_env.bat``` to set up the recommended virtual environment.
 
-Run the ```run_main.bat``` file to run main.py with the recommended virtual environment!
+Run the ```run_main.bat``` file to run main.py with the recommended virtual environment.
 
-If you add/update any packages to the virtual environment during development then run ```update_requirements_txt.bat``` to update the contents of the requirements.txt file.
+Run the ```run_tests.bat``` file to run unit tests.
+
+# Adding/Updating packages
+
+To add/update packages to/in the virtual environment, one should:
+
+* Activate the virtual environment from a terminal (see a batch file or shell script for examples of doing this).
+* Install packages using pip.
+* (windows) Execute ```python -m pip freeze > requirements.txt``` from the base directory to update the contents of the requirements.txt file.
+
