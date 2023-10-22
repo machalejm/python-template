@@ -2,5 +2,5 @@
 :: read name + load virtual environment
 CALL .\venv\Scripts\activate.bat
 
-python -m pytest
+python -m pytests
 PAUSE
